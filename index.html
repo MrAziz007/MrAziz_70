@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/style.css">
+  <title>BAN</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="container contHead">
+      <nav>
+        <ul>
+          <li>
+            <a href="">Главное</a>
+          </li>
+          <li>
+            <a href="">Мои кашельки</a>
+          </li>
+          <li>
+            <a href="">Мои транзакции</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <!-- <button class="enter"></button> -->
+        <button class="exit">
+          <p class="userEmail">...</p>
+          <img src="/log-out (1) 1.png" alt="OUT">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <h1>Добро пожаловать, <span class="userName">...</span>!</h1>
+
+    <a href="" class="link userEmail">...</a>
+
+    <h2>Мои кошельки</h2>
+
+    <div class="dspGrid"></div>
+
+    <button class="showAll cardMore">Смотреть все кошельки</button>
+
+    <h2>Последние транзакции</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th class="q">ID</th>
+          <th class="w">Отправлено с кошелька</th>
+          <th class="e">Категория </th>
+          <th class="r">Сумма транзации</th>
+          <th class="t">Когда</th>
+        </tr>
+      </thead>
+      <tbody class="tbody"></tbody>
+    </table>
+    <button class="showAll tableMore">Смотреть все кошельки</button>
+
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>

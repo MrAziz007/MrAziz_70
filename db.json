@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "e45t",
+      "token": "e45tthfyb347",
+      "email": "Xalal@gmail.com",
+      "name": "Go'sht",
+      "sername": "Xalal",
+      "password": "ftn"
+    },
+    {
+      "id": "14b7",
+      "email": "",
+      "name": "",
+      "sername": "",
+      "password": "",
+      "token": "FSRanEj0aXe5"
+    },
+    {
+      "id": "eb3a",
+      "email": "isido7094@gmail.com",
+      "name": "BUN",
+      "sername": "Dfwe",
+      "password": "ты7ппdDffff$",
+      "token": "XDGCr6KGxVoE"
+    }
+  ],
+  "cards": [
+    {
+      "img": "/Group 14.png",
+      "id": "d31f"
+    },
+    {
+      "img": "/Group 15.png",
+      "id": "b4f9"
+    },
+    {
+      "img": "/Group 16.png",
+      "id": "b3bb"
+    },
+    {
+      "img": "/Group 17.png",
+      "id": "e7d6"
+    }
+  ],
+  "transaction": [
+    {
+      "userid": "e45t",
+      "id": "148",
+      "koshelok": "VISA",
+      "category": "AVTO",
+      "summa": "453000",
+      "when": "22:19"
+    },
+    {
+      "userid": "e45t",
+      "id": "2",
+      "koshelok": "VISA",
+      "category": "AVTO",
+      "summa": "453000",
+      "when": "22:19"
+    },
+    {
+      "userid": "e45t",
+      "id": "16",
+      "koshelok": "VISA",
+      "category": "AVTO",
+      "summa": "453000",
+      "when": "22:19"
+    }
+  ]
+}

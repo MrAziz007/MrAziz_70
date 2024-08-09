@@ -1,0 +1,168 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color-scheme: light dark;
+  /* color: rgba(255, 255, 255, 0.87); */
+  /* background-color: #242424; */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #F0F0F0;
+  margin: 0 0 40px 0;
+}
+
+.contHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+li a {
+  color: #000;
+  font-size: 16px;
+}
+
+.exit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0 0 10px 0;
+}
+
+.link {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h2 {
+  margin: 50px 0 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.dspGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.showAll {
+  color: blue;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 17px 0 50px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid #B9C0D1;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 22%;
+  margin: 200px auto 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  h2 {
+    margin: 0 0 18px 0;
+    text-align: center;
+  }
+
+  input {
+    padding: 0 0 0 10px;
+    height: 40px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: #F0F0F0;
+  }
+
+  button {
+    color: #fff;
+    background-color: blue;
+    height: 40px;
+    border-radius: 10px;
+  }
+
+}
+
+.logBlock {
+  background-color: transparent;
+  color: blue;
+  height: 30px;
+  font-weight: 600;
+}
+
+th,
+td {
+  padding: 7px 10px 7px 0;
+  text-align: start;
+}
+
+.q {
+  width: 15%;
+}
+
+.w {
+  width: 32%;
+}
+
+.e {
+  width: 21%;
+}
+
+.r {
+  width: 25%;
+}
+
+.t {
+  width: 7%;
+}
